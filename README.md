@@ -5,3 +5,9 @@
 [![respectmyinternet.png](https://i.postimg.cc/5ymhvL8L/respectmyinternet.png)](https://postimg.cc/rRKZ2dnw)
 
 > This script and these rules are provided for the "OpenSnitch" firewall for Linux. It's an application firewall that offers in addition to classic blocking, DNS blocking and blocking applications directly on your favorite Linux distribution!
+
+### :cop: Blockling Feeds
+
+| Website | Description |
+| --- | --- |
+| [Hagezi-Ultimate](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#ultimate) |  Strictly cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Free Hoster, Fake, Coins and other "Crap" |
