@@ -18,3 +18,4 @@
 | [No-Amazon](https://github.com/nickspaargaren/no-amazon) | Protect yourself from Amazon monopoly by using this blocklist |
 | [No-Microsoft](https://github.com/jmdugan/blocklists/tree/master) | Block Microsoft related domains |
 | [No-Windows](https://github.com/crazy-max/WindowsSpyBlocker/tree/master) | Windows Spy Blocker |
+| [No-Track](https://gitlab.com/quidsup/notrack-blocklists/) | Fight global surveillance with this giant blocklist against Internet trackers |
