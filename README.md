@@ -9,9 +9,15 @@
 ### :memo: Setup
 
 Download OpenSnitch for your linux distribution : 
+
 - Archlinux ```yay -S opensnitch-git```
 - Ubuntu/Debian ```apt install opensnitch python3-opensnitch-ui```
 - Fedora ```sudo dnf install opensnitch opensnitch-ui```
+
+Start and Enable OpenSnitch service : 
+
+```sudo systemctl enable --now opensnitch```
+```sudo systemctl start opensnitch```
 
 ### :cop: Blocking Feeds
 
