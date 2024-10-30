@@ -5,5 +5,3 @@
 [![respectmyinternet.png](https://i.postimg.cc/5ymhvL8L/respectmyinternet.png)](https://postimg.cc/rRKZ2dnw)
 
 > This script and these rules are provided for the "OpenSnitch" firewall for Linux. It's an application firewall that offers in addition to classic blocking, DNS blocking and blocking applications directly on your favorite Linux distribution!
-
-</br>
