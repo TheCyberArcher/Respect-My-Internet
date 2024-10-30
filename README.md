@@ -12,4 +12,9 @@
 | --- | --- |
 | [Hagezi-Ultimate](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#ultimate) |  Strictly cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Free Hoster, Fake, Coins and other "Crap" |
 | [CTI-Feeds](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#tif) |  A blocklist for blocking malware, cryptojacking, scam, spam and phishing. Blocks domains known to spread malware, launch phishing attacks and host command-and-control servers |
-| [No-Google](https://github.com/nickspaargaren/no-google) |  Protect yourself from Google's surveillance by using this blocklist! Feel free to criticize our blocklist to make it better and better |
+| [No-Google](https://github.com/nickspaargaren/no-google) |  Protect yourself from Google's surveillance by using this blocklist |
+| [No-Apple](https://github.com/cedws/apple-telemetry) | Domain blocklists, IP blocklists, and cloaking files for domains that Apple devices frequently contact |
+| [No-Facebook](https://github.com/jmdugan/blocklists/tree/master) | Block Facebook related domains |
+| [No-Amazon](https://github.com/nickspaargaren/no-amazon) | Protect yourself from Amazon monopoly by using this blocklist |
+| [No-Microsoft](https://github.com/jmdugan/blocklists/tree/master) | Block Microsoft related domains |
+| [No-Windows](https://github.com/crazy-max/WindowsSpyBlocker/tree/master) | Windows Spy Blocker |
