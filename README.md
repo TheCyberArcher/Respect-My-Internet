@@ -22,7 +22,10 @@ Download and launch the script :
 
 ```bash respect-my-internet.sh```
 
-----> Schedule a cron task or use a script at the startup login (in KDE-Plasma or Gnome-Shell)
+Schedule a cron task or use a script at the startup login (in KDE-Plasma or Gnome-Shell)
+Restart your computer, the protections are now applied in the firewall. If you have problems, apply whitelists.
+
+---> Your internet is now clean, the list of blocked feeds is available below ;)
 
 ### :cop: Blocking Feeds
 
