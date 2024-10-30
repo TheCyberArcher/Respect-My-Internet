@@ -16,8 +16,13 @@ Download OpenSnitch for your linux distribution :
 
 Start and Enable OpenSnitch service : 
 
-```sudo systemctl enable --now opensnitch```
-```sudo systemctl start opensnitch```
+```sudo systemctl enable --now opensnitch``` and ```sudo systemctl start opensnitch```
+
+Download and launch the script : 
+
+```bash respect-my-internet.sh```
+
+----> Schedule a cron task or use a script at the startup login (in KDE-Plasma or Gnome-Shell)
 
 ### :cop: Blocking Feeds
 
