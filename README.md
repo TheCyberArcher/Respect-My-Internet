@@ -11,8 +11,7 @@
 | Website | Description |
 | --- | --- |
 | [Hagezi-Ultimate](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#ultimate) |  Strictly cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Free Hoster, Fake, Coins and other "Crap" |
-| [OISD-Big](https://oisd.nl/setup) | This blocklist prevents your devices from connecting to unwanted or harmful domains |
-It reduces ads, decreases the risk of malware, and enhances privacy.
+| [OISD-Big](https://oisd.nl/setup) | This blocklist prevents your devices from connecting to unwanted or harmful domains. It reduces ads, decreases the risk of malware, and enhances privacy. |
 | [CTI-Feeds](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#tif) |  A blocklist for blocking malware, cryptojacking, scam, spam and phishing. Blocks domains known to spread malware, launch phishing attacks and host command-and-control servers |
 | [Red-Flag-Domains](https://red.flag.domains/) | Red Flag Domains are lists of very recently registered probably malicious domain names in french TLDs |
 | [No-Google](https://github.com/nickspaargaren/no-google) |  Protect yourself from Google's surveillance by using this blocklist |
