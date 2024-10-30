@@ -12,3 +12,4 @@
 | --- | --- |
 | [Hagezi-Ultimate](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#ultimate) |  Strictly cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Free Hoster, Fake, Coins and other "Crap" |
 | [CTI-Feeds](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#tif) |  A blocklist for blocking malware, cryptojacking, scam, spam and phishing. Blocks domains known to spread malware, launch phishing attacks and host command-and-control servers |
+| [No-Google](https://github.com/nickspaargaren/no-google) |  Protect yourself from Google's surveillance by using this blocklist! Feel free to criticize our blocklist to make it better and better |
