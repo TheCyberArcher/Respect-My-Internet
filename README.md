@@ -8,7 +8,7 @@
 
 ### :memo: Setup
 
-Download OpenSnitch for your linux distribution : ```yay -S opensnitch-git```
+Download OpenSnitch for your linux distribution : archlinux ```yay -S opensnitch-git``` Ubuntu/Debian ```apt install opensnitch python3-opensnitch-ui``` Fedora ```sudo dnf install opensnitch opensnitch-ui```
 
 ### :cop: Blocking Feeds
 
