@@ -13,6 +13,7 @@ mkdir /home/$USER/Respect-My-Internet/No-Track/
 mkdir /home/$USER/Respect-My-Internet/No-Facebook/
 mkdir /home/$USER/Respect-My-Internet/No-Microsoft/
 mkdir /home/$USER/Respect-My-Internet/Red-Flag/
+mkdir /home/$USER/Respect-My-Internet/OISD/
 
 ####### BLOCKLISTS UPDATE + CONVERT ########
 
@@ -26,6 +27,7 @@ curl  https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/m
 curl  https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt  >> /home/$USER/TMP/no-windows.tmp #NO-WINDOWS
 curl  https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/notrack-blocklist.txt    >> /home/$USER/TMP/no-track.tmp #NO-TRACK
 curl  https://dl.red.flag.domains/red.flag.domains.txt >> /home/$USER/TMP/red-flag-domains.tmp #RED-FLAG-DOMAINS
+curl  https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild_big.txt >> /home/$USER/TMP/oisd-big.tmp #OISD-BIG
 
 cd /home/$USER/TMP/
 printf "0.0.0.0 %s\n" $(cat hagezi.tmp) >> /home/$USER/Respect-My-Internet/Hagezi-Ultimate/hagezi.txt
@@ -35,6 +37,8 @@ printf "0.0.0.0 %s\n" $(cat no-apple.tmp) >> /home/$USER/Respect-My-Internet/No-
 printf "0.0.0.0 %s\n" $(cat no-amazon.tmp) >> /home/$USER/Respect-My-Internet/No-Amazon/no-amazon.txt
 printf "0.0.0.0 %s\n" $(cat no-track.tmp) >> /home/$USER/Respect-My-Internet/No-Track/no-track.txt
 printf "0.0.0.0 %s\n" $(red-flag-domains.tmp) >> /home/$USER/Respect-My-Internet/Red-Flag/red-flag-domains.txt
+printf "0.0.0.0 %s\n" $(oisd-big.tmp) >> /home/$USER/Respect-My-Internet/OISD/oisd-big.txt
+
 
 mv /home/$USER/TMP/no-facebook.tmp /home/$USER/Respect-My-Internet/No-Facebook/no-facebook.txt
 mv /home/$USER/TMP/no-microsoft.tmp /home/$USER/Respect-My-Internet/No-Microsoft/no-microsoft.txt
