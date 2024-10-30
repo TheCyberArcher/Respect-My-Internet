@@ -6,7 +6,7 @@
 
 > This script and these rules are provided for the "OpenSnitch" firewall for Linux. It's an application firewall that offers in addition to classic blocking, DNS blocking and blocking applications directly on your favorite Linux distribution!
 
-### :cop: Blockling Feeds
+### :cop: Blocking Feeds
 
 | Website | Description |
 | --- | --- |
