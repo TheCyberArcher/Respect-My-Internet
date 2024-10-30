@@ -1,0 +1,18 @@
+{
+    "created": "",
+    "updated": "",
+    "name": "threat-intelligence-feeds",
+    "description": "",
+    "action": "deny",
+    "duration": "always",
+    "operator": {
+      "operand": "lists.domains",
+      "data": "/home/$USER/Respect-My-Internet/CTI-Feeds/",
+      "type": "lists",
+      "list": [],
+      "sensitive": false
+    },
+    "enabled": true,
+    "precedence": true,
+    "nolog": false
+  }

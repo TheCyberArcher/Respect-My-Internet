@@ -1,0 +1,18 @@
+{
+    "created": "",
+    "updated": "",
+    "name": "no-facebook",
+    "description": "",
+    "action": "deny",
+    "duration": "always",
+    "operator": {
+      "operand": "lists.domains",
+      "data": "/home/$USER/Respect-My-Internet/No-Facebook/",
+      "type": "lists",
+      "list": [],
+      "sensitive": false
+    },
+    "enabled": true,
+    "precedence": true,
+    "nolog": false
+  }

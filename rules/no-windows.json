@@ -1,0 +1,18 @@
+{
+    "created": "",
+    "updated": "",
+    "name": "no-windows",
+    "description": "",
+    "action": "deny",
+    "duration": "always",
+    "operator": {
+      "operand": "lists.domains",
+      "data": "/home/$USER/Respect-My-Internet/No-Windows/",
+      "type": "lists",
+      "list": [],
+      "sensitive": false
+    },
+    "enabled": true,
+    "precedence": true,
+    "nolog": false
+  }
