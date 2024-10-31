@@ -7,7 +7,7 @@
     "duration": "always",
     "operator": {
       "operand": "lists.domains",
-      "data": "/home/$USER/Respect-My-Internet/Hagezi-Ultimate/",
+      "data": "/home/$USER/.config/opensnitch/Respect-My-Internet/Hagezi-Ultimate/",
       "type": "lists",
       "list": [],
       "sensitive": false
