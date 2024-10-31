@@ -14,13 +14,17 @@ jobs:
 
       - name: feed recuperation with curl
         run: |
-          curl -o hagezi-ultimate.txt https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/ultimate.txt
+          curl -o ./respect-my-privacy/blocklist/hagezi-ultimate.txt https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/ultimate.txt
                 
       - name: Opensnitch patching
         run: |
-          sed 's/^/0.0.0.0 /' < hagezi-ultimate.txt > hagezi-ultimate.txt
+          sed 's/^/0.0.0.0 /' < ./respect-my-privacy/blocklist/hagezi-ultimate.txt > ./respect-my-privacy/blocklist/hagezi-ultimate.txt
           
-      - name : Add and commit changes 
-        run: |
-          git add .
-          git commit -m "Mise à jour du fichier"
+      - name: Push changes
+        uses: gh-action/gh-push@v1
+        with:
+          branch: main
+          commit_message: "Mise à jour du fichier"
+          path: ./respect-my-privacy/blocklist/hagezi-ultimate.txt
+
+
