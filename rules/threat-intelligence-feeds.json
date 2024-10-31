@@ -7,7 +7,7 @@
     "duration": "always",
     "operator": {
       "operand": "lists.domains",
-      "data": "/home/$USER/Respect-My-Internet/CTI-Feeds/",
+      "data": "/home/$USER/.config/opensnitch/Respect-My-Internet/CTI-Feeds/",
       "type": "lists",
       "list": [],
       "sensitive": false
