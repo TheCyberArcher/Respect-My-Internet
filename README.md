@@ -46,6 +46,8 @@ Restart your computer, the protections are now applied in the firewall. If you h
 
 ---
 
+[![Drawing-1-sketchpad.png](https://i.postimg.cc/yxwpt6HL/Drawing-1-sketchpad.png)](https://postimg.cc/ZvxLyS0N)
+
 ✅ Block Gafam services and tracking (Google, Facebook, Amazon, Apple...) \
 ✅ Block Batx china services and tracking (Xiaomi, Huawei, Baidu, Tencent...) \
 ✅ Internet protection (malicious websites, malwares, scam...) \
