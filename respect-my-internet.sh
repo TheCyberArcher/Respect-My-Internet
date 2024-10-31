@@ -39,9 +39,9 @@ printf "0.0.0.0 %s\n" $(cat no-google.tmp) >> /home/$USER/Respect-My-Internet/No
 printf "0.0.0.0 %s\n" $(cat no-apple.tmp) >> /home/$USER/Respect-My-Internet/No-Apple/no-apple.txt
 printf "0.0.0.0 %s\n" $(cat no-amazon.tmp) >> /home/$USER/Respect-My-Internet/No-Amazon/no-amazon.txt
 printf "0.0.0.0 %s\n" $(cat no-track.tmp) >> /home/$USER/Respect-My-Internet/No-Track/no-track.txt
-printf "0.0.0.0 %s\n" $(red-flag-domains.tmp) >> /home/$USER/Respect-My-Internet/Red-Flag/red-flag-domains.txt
-printf "0.0.0.0 %s\n" $(oisd-big.tmp) >> /home/$USER/Respect-My-Internet/OISD/oisd-big.txt
-printf "0.0.0.0 %s\n" $(phishing-army.tmp) >> /home/$USER/Respect-My-Internet/Phishing-Army/phishing-army.txt
+printf "0.0.0.0 %s\n" $(cat red-flag-domains.tmp) >> /home/$USER/Respect-My-Internet/Red-Flag/red-flag-domains.txt
+printf "0.0.0.0 %s\n" $(cat oisd-big.tmp) >> /home/$USER/Respect-My-Internet/OISD/oisd-big.txt
+printf "0.0.0.0 %s\n" $(cat phishing-army.tmp) >> /home/$USER/Respect-My-Internet/Phishing-Army/phishing-army.txt
 
 mv /home/$USER/TMP/no-facebook.tmp /home/$USER/Respect-My-Internet/No-Facebook/no-facebook.txt
 mv /home/$USER/TMP/no-microsoft.tmp /home/$USER/Respect-My-Internet/No-Microsoft/no-microsoft.txt
