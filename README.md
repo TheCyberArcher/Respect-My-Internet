@@ -46,12 +46,4 @@ Restart your computer, the protections are now applied in the firewall. If you h
 
 ---
 
-[![AnimeNoGafam](https://i.postimg.cc/yxwpt6HL/Drawing-1-sketchpad.png)](https://postimg.cc/ZvxLyS0N) ✅ Block Gafam services and tracking (Google, Facebook, Amazon, Apple...) \ ✅ Block Batx china services and tracking (Xiaomi, Huawei, Baidu, Tencent...) \
-
-✅ Block Gafam services and tracking (Google, Facebook, Amazon, Apple...) \
-✅ Block Batx china services and tracking (Xiaomi, Huawei, Baidu, Tencent...) \
-✅ Internet protection (malicious websites, malwares, scam...) \
-✅ Preventive phishing french blacklist \
-✅ Block global tracking and survey on the internet \
-✅ Malicious IP protection from industry leaders \
-:arrow_right: 99% with ublock down on the Adblockers test !
+[![AnimeNoGafam](https://i.postimg.cc/yxwpt6HL/Drawing-1-sketchpad.png)](https://postimg.cc/ZvxLyS0N) [![Blockblock.png](https://i.postimg.cc/y8Sj2CQG/Blockblock.png)](https://postimg.cc/5Xb8FTM5)
