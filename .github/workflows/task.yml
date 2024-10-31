@@ -1,3 +1,0 @@
-            - name: Action - rsync
-  uses: up9cloud/action-rsync@v1.4
-          
