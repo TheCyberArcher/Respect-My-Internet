@@ -8,8 +8,6 @@ on:
 jobs:
   update-file:
     runs-on: ubuntu-latest
-    secrets:
-      GITHUB_TOKEN: ${{ secrets.blocklist }}
 
 steps:
   - name: Checkout code
@@ -24,8 +22,9 @@ steps:
       sed -i 's/^/0.0.0.0  /' ./Respect-My-Internet/blocklist/hagezi-ultimate.txt
 
   - name: Push changes
-    uses: gh-action/gh-push@v1
+    uses: gh-action/gh-push@v2
     with:
       branch: main
       commit_message: "Updated"
       path: ./Respect-My-Internet/blocklist/hagezi-ultimate.txt
+      token: ${{ secrets.blocklist }}
