@@ -7,7 +7,7 @@
     "duration": "always",
     "operator": {
       "operand": "lists.domains",
-      "data": "/home/$USER/Respect-My-Internet/No-Windows/",
+      "data": "/home/$USER/.config/opensnitch/Respect-My-Internet/No-Windows/",
       "type": "lists",
       "list": [],
       "sensitive": false
