@@ -1,0 +1,26 @@
+name: Update File
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: feed recuperation with curl
+        run: |
+          curl -o hagezi-ultimate.txt https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/ultimate.txt
+                
+      - name: Opensnitch patching
+        run: |
+          sed 's/^/0.0.0.0 /' < hagezi-ultimate.txt > hagezi-ultimate.txt
+          
+      - name : Add and commit changes 
+        run: |
+          git add .
+          git commit -m "Mise à jour du fichier"
