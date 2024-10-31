@@ -46,11 +46,11 @@ Restart your computer, the protections are now applied in the firewall. If you h
 
 ---
 
-✅ Block Gafam services and tracking (Google, Facebook, Amazon, Apple...) /
-✅ Block Batx china services and tracking (Xiaomi, Huawei, Baidu, Tencent...) /
-✅ Internet protection (malicious websites, malwares, scam...) /
-✅ Preventive phishing french blacklist /
-✅ Block global tracking and survey on the internet /
+✅ Block Gafam services and tracking (Google, Facebook, Amazon, Apple...)/
+✅ Block Batx china services and tracking (Xiaomi, Huawei, Baidu, Tencent...)/
+✅ Internet protection (malicious websites, malwares, scam...)/
+✅ Preventive phishing french blacklist/
+✅ Block global tracking and survey on the internet/
 ✅ Malicious IP protection from industry leaders
 
 
