@@ -19,13 +19,13 @@ jobs:
                 
       - name: Opensnitch patching
         run: |
-          sed 's/^/0.0.0.0 /' < ./Respect-My-Internet/blocklist/hagezi-ultimate.txt > ./Respect-My-Internet/blocklist/hagezi-ultimate.txt
+          sed -i 's/^/0.0.0.0 /' < ./Respect-My-Internet/blocklist/hagezi-ultimate.txt > ./Respect-My-Internet/blocklist/hagezi-ultimate.txt
           
       - name: Push changes
         uses: gh-action/gh-push@v1
         with:
           branch: main
-          commit_message: "Mise à jour du fichier"
+          commit_message: "Updated"
           path: ./Respect-My-Internet/blocklist/hagezi-ultimate.txt
 
 
