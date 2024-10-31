@@ -14,6 +14,7 @@ mkdir /home/$USER/Respect-My-Internet/No-Facebook/
 mkdir /home/$USER/Respect-My-Internet/No-Microsoft/
 mkdir /home/$USER/Respect-My-Internet/Red-Flag/
 mkdir /home/$USER/Respect-My-Internet/OISD/
+mkdir /home/$USER/Respect-My-Internet/REGEX/
 
 ####### BLOCKLISTS UPDATE + CONVERT ########
 
@@ -45,3 +46,4 @@ mv /home/$USER/TMP/no-microsoft.tmp /home/$USER/Respect-My-Internet/No-Microsoft
 mv /home/$USER/TMP/no-windows.tmp /home/$USER/Respect-My-Internet/No-Windows/no-windows.txt
 
 git clone https://github.com/TheCyberArcher/Respect-My-Internet/tree/main/rules /etc/opensnitchd/rules/
+git clone https://github.com/TheCyberArcher/Respect-My-Internet/tree/main/regex /home/$USER/Respect-My-Internet/REGEX/
