@@ -1,0 +1,10 @@
+      - name: Push blocklists
+        uses: nkoppel/push-files-to-another-repository@v1.1.3
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-files: 'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/ultimate.txt'
+          destination-username: 'TheCyberArcher'
+          destination-repository: 'Respect-My-Internet'
+          destination-directory: 'blob/main/blocklists'
+          commit-email: 'thecybcerarcher@anonymous.com'
