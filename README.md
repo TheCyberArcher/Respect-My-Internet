@@ -6,6 +6,8 @@
 
 > This script and these rules are provided for the "OpenSnitch" firewall for Linux. It's an application firewall that offers in addition to classic blocking, DNS blocking and blocking applications directly on your favorite Linux distribution!
 
+---
+
 ### :memo: Setup
 
 Download OpenSnitch for your linux distribution : 
@@ -26,6 +28,8 @@ Schedule a cron task or use a script at the startup login (in KDE-Plasma or Gnom
 Restart your computer, the protections are now applied in the firewall. If you have problems, apply whitelists.
 
 ---> Your internet is now clean, the list of blocked feeds is available below ;)
+
+---
 
 ### :cop: Blocking Feeds
 
