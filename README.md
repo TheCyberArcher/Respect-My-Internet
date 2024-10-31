@@ -51,6 +51,5 @@ Restart your computer, the protections are now applied in the firewall. If you h
 ✅ Internet protection (malicious websites, malwares, scam...) \
 ✅ Preventive phishing french blacklist \
 ✅ Block global tracking and survey on the internet \
-✅ Malicious IP protection from industry leaders
-
-:arrow_right: 99% on the Adblockers test (with ublock down) 
+✅ Malicious IP protection from industry leaders \
+:arrow_right: 99% with ublock down on the Adblockers test !
