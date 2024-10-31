@@ -46,4 +46,4 @@ Restart your computer, the protections are now applied in the firewall. If you h
 
 ---
 
-[![AnimeNoGafam](https://i.postimg.cc/yxwpt6HL/Drawing-1-sketchpad.png)](https://postimg.cc/ZvxLyS0N) [![Blockblock.png](https://i.postimg.cc/y8Sj2CQG/Blockblock.png)](https://postimg.cc/5Xb8FTM5)
+[![nonogafam.jpg](https://i.postimg.cc/k5BYyYLJ/nonogafam.jpg)](https://postimg.cc/wtYkq26Z)
