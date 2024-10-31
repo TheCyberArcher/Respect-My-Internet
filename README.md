@@ -46,6 +46,8 @@ Restart your computer, the protections are now applied in the firewall. If you h
 
 ---
 
+![animegirl](https://media.gifdb.com/anime-gun-498-x-278-gif-w9a2dknu7ermb6rf.gif)
+
 ✅ Block Gafam services and tracking (Google, Facebook, Amazon, Apple...) \
 ✅ Block Batx china services and tracking (Xiaomi, Huawei, Baidu, Tencent...) \
 ✅ Internet protection (malicious websites, malwares, scam...) \
