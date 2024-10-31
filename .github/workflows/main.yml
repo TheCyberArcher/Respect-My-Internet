@@ -21,9 +21,8 @@ jobs:
 
       - name: Push changes
         uses: gh-action/gh-push@v2
-        
-  with:
-    branch: main
-    commit_message: "Updated"
-    path: ./Respect-My-Internet/blocklist/hagezi-ultimate.txt
-    token: ${{ secrets.blocklist }}
+        with:
+          branch: main
+          commit_message: "Updated"
+          path: ./Respect-My-Internet/blocklist/hagezi-ultimate.txt
+          token: ${{ secrets.blocklist }}
