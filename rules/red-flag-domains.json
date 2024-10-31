@@ -7,7 +7,7 @@
     "duration": "always",
     "operator": {
       "operand": "lists.domains",
-      "data": "/home/$USER/Respect-My-Internet/RED-FLAG/",
+      "data": "/home/$USER/.config/opensnitch/Respect-My-Internet/RED-FLAG/",
       "type": "lists",
       "list": [],
       "sensitive": false
