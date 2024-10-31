@@ -25,4 +25,4 @@ jobs:
           branch: main
           commit_message: "Updated"
           path: ./Respect-My-Internet/blocklist/hagezi-ultimate.txt
-          token: ${{ secrets.BLOCKLIST }}
+          token: ${{ secrets.GITHUB_TOKEN }}
