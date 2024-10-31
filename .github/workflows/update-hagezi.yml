@@ -1,0 +1,17 @@
+jobs:
+  keep_file_updated:
+    runs-on: ubuntu-latest
+    name: Keep file updated
+    steps:
+    - name: Checkout repo
+      id: checkout
+      uses: actions/checkout@v4
+    - name: Update file
+      id: update_file
+      uses: TheLastProject/keep-remote-file-locally-up-to-date-action@v1
+      with:
+        url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/ultimate.txt
+        file_in_repo: /Respect-My-Internet/tree/main/blocklist/hagezi-ultimate.txt
+on:
+  schedule:
+    - cron: '0 0 * * *'
