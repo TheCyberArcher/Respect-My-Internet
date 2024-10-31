@@ -19,20 +19,18 @@ mkdir /home/$USER/.config/opensnitch/Respect-My-Internet/REGEX/
 
 ####### BLOCKLISTS UPDATE + CONVERT ########
 
-for url in
-
-https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/ultimate.txt   >> /home/$USER/TMP/hagezi.tmp #HAGEZI-ULTIMATE
-https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt  >> /home/$USER/TMP/cti.tmp #CTI-FEEDS
-https://raw.githubusercontent.com/nickspaargaren/no-google/refs/heads/master/pihole-google.txt >> /home/$USER/TMP/no-google.tmp #NO-GOOGLE
-https://raw.githubusercontent.com/cedws/apple-telemetry/refs/heads/master/blacklist  >> /home/$USER/TMP/no-apple.tmp #NO-APPLE
-https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all  >> /home/$USER/TMP/no-facebook.tmp #NO-FACEBOOK
-https://raw.githubusercontent.com/nickspaargaren/no-amazon/refs/heads/master/amazon.txt >> /home/$USER/TMP/no-amazon.tmp #NO-AMAZON
-https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/microsoft/all  >> /home/$USER/TMP/no-microsoft.tmp #NO-MICROSOFT
-https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt  >> /home/$USER/TMP/no-windows.tmp #NO-WINDOWS
-https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/notrack-blocklist.txt    >> /home/$USER/TMP/no-track.tmp #NO-TRACK
-https://dl.red.flag.domains/red.flag.domains.txt >> /home/$USER/TMP/red-flag-domains.tmp #RED-FLAG-DOMAINS
-https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild_big.txt >> /home/$USER/TMP/oisd-big.tmp #OISD-BIG
-https://phishing.army/download/phishing_army_blocklist_extended.txt >> /home/$USER/TMP/phishing-army.tmp #PHISHING-ARMY
+curl https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/ultimate.txt   >> /home/$USER/TMP/hagezi.tmp #HAGEZI-ULTIMATE
+curl https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt  >> /home/$USER/TMP/cti.tmp #CTI-FEEDS
+curl https://raw.githubusercontent.com/nickspaargaren/no-google/refs/heads/master/pihole-google.txt >> /home/$USER/TMP/no-google.tmp #NO-GOOGLE
+curl https://raw.githubusercontent.com/cedws/apple-telemetry/refs/heads/master/blacklist  >> /home/$USER/TMP/no-apple.tmp #NO-APPLE
+curl https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all  >> /home/$USER/TMP/no-facebook.tmp #NO-FACEBOOK
+curl https://raw.githubusercontent.com/nickspaargaren/no-amazon/refs/heads/master/amazon.txt >> /home/$USER/TMP/no-amazon.tmp #NO-AMAZON
+curl https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/microsoft/all  >> /home/$USER/TMP/no-microsoft.tmp #NO-MICROSOFT
+curl https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt  >> /home/$USER/TMP/no-windows.tmp #NO-WINDOWS
+curl https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/notrack-blocklist.txt    >> /home/$USER/TMP/no-track.tmp #NO-TRACK
+curl https://dl.red.flag.domains/red.flag.domains.txt >> /home/$USER/TMP/red-flag-domains.tmp #RED-FLAG-DOMAINS
+curl https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild_big.txt >> /home/$USER/TMP/oisd-big.tmp #OISD-BIG
+curl https://phishing.army/download/phishing_army_blocklist_extended.txt >> /home/$USER/TMP/phishing-army.tmp #PHISHING-ARMY
 
 cd /home/$USER/TMP/
 printf "0.0.0.0 %s\n" $(cat hagezi.tmp) >> /home/$USER/.config/opensnitch/Respect-My-Internet/Hagezi-Ultimate/hagezi.txt
