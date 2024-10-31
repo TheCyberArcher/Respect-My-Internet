@@ -43,6 +43,7 @@ Restart your computer, the protections are now applied in the firewall. If you h
 | [No-Windows](https://github.com/crazy-max/WindowsSpyBlocker/tree/master) | Windows Spy Blocker |
 | [No-Track](https://gitlab.com/quidsup/notrack-blocklists/) | Fight global surveillance with this giant blocklist against Internet trackers |
 | [Respect-my-freedom]() | Blocks all TLDs linked to repressive, dictatorial governments that do not respect freedom of expression and human rights/values |
+| [Phishing Army](https://www.phishing.army/) | Generated every 6 hours from PhishTank, OpenPhish, Cert.pl, PhishFindR, Urlscan.io and Phishunt.io reports |
 
 ---
 
