@@ -1,0 +1,17 @@
+{
+  "created": "",
+  "updated": "",
+  "name": "respect-my-freedom",
+  "description": "",
+  "action": "deny",
+  "duration": "always",
+  "operator": {
+    "operand": "lists.domains_regexp",
+    "data": "/home/$USER/Respect-My-Internet/REGEX/",
+    "type": "lists",
+    "list": [],
+    "sensitive": false
+  },
+  "enabled": true,
+  "precedence": true,
+  "nolog": false
