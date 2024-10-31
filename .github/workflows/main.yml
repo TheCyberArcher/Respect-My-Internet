@@ -4,28 +4,26 @@ on:
   push:
     branches:
       - main
-      
+
 jobs:
   update-file:
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+steps:
+  - name: Checkout code
+    uses: actions/checkout@v2
 
-      - name: feed recuperation with curl
-        run: |
-          curl -o ./Respect-My-Internet/blocklist/hagezi-ultimate.txt https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/ultimate.txt
-                
-      - name: Opensnitch patching
-        run: |
-          sed -i 's/^/0.0.0.0 /' < ./Respect-My-Internet/blocklist/hagezi-ultimate.txt > ./Respect-My-Internet/blocklist/hagezi-ultimate.txt
-          
-      - name: Push changes
-        uses: gh-action/gh-push@v1
-        with:
-          branch: main
-          commit_message: "Updated"
-          path: ./Respect-My-Internet/blocklist/hagezi-ultimate.txt
+  - name: Feed recuperation with curl
+    run: |
+      curl -o ./Respect-My-Internet/blocklist/hagezi-ultimate.txt https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/ultimate.txt
 
+  - name: Opensnitch patching
+    run: |
+      sed -i 's/^/0.0.0.0  /' ./Respect-My-Internet/blocklist/hagezi-ultimate.txt
 
+  - name: Push changes
+    uses: gh-action/gh-push@v1
+    with:
+      branch: main
+      commit_message: "Updated"
+      path: ./Respect-My-Internet/blocklist/hagezi-ultimate.txt
