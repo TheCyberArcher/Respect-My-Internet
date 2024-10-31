@@ -14,4 +14,4 @@ jobs:
         file_in_repo: /Respect-My-Internet/tree/main/blocklist/hagezi-ultimate.txt
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '* * * * *'
