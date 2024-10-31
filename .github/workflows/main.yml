@@ -8,6 +8,9 @@ on:
 jobs:
   update-file:
     runs-on: ubuntu-latest
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
 
 steps:
   - name: Checkout code
