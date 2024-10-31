@@ -7,7 +7,7 @@
   "duration": "always",
   "operator": {
     "operand": "lists.domains_regexp",
-    "data": "/home/$USER/Respect-My-Internet/REGEX/",
+    "data": "/home/$USER/.config/opensnitch/Respect-My-Internet/REGEX/",
     "type": "lists",
     "list": [],
     "sensitive": false
