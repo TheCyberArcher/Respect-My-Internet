@@ -53,4 +53,4 @@ Restart your computer, the protections are now applied in the firewall. If you h
 ✅ Block global tracking and survey on the internet \
 ✅ Malicious IP protection from industry leaders
 
-
+:arrow_right: 99% on the Adblockers test (with ublock down) 
