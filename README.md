@@ -43,3 +43,9 @@ Restart your computer, the protections are now applied in the firewall. If you h
 | [No-Windows](https://github.com/crazy-max/WindowsSpyBlocker/tree/master) | Windows Spy Blocker |
 | [No-Track](https://gitlab.com/quidsup/notrack-blocklists/) | Fight global surveillance with this giant blocklist against Internet trackers |
 | [Respect-my-freedom]() | Blocks all TLDs linked to repressive, dictatorial governments that do not respect freedom of expression and human rights/values |
+
+---
+
+✅ Block Gafam services and tracking (Google, Facebook, Amazon, Apple...)
+✅ Block Batx china services and tracking (Xiaomi, Huawei, Baidu, Tencent...)
+✅ Protection about malicious websites
