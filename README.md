@@ -18,7 +18,7 @@ Download OpenSnitch for your linux distribution :
 
 Start and Enable OpenSnitch service : 
 
-```sudo systemctl enable --now opensnitch``` and ```sudo systemctl start opensnitch```
+```sudo systemctl enable --now opensnitch```
 
 Download and launch the script : 
 
