@@ -1,4 +1,4 @@
-name: gpdate File
+name: Update File
 
 on:
   push:
