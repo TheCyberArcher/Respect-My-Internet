@@ -1,10 +1,5 @@
 name: Update File
 
-on:
-  push:
-    branches:
-      - main
-
 jobs:
   update-file:
     runs-on: ubuntu-latest
