@@ -6,14 +6,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
+        
       - name: Feed recuperation with curl
-        run: |
-          curl -o ./Respect-My-Internet/blocklist/hagezi-ultimate.txt https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/ultimate.txt
+        run: curl -o ./Respect-My-Internet/blocklist/hagezi-ultimate.txt https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/ultimate.txt
       - name: Opensnitch patching
-         run: |
-           sed -i 's/^/0.0.0.0  /' ./Respect-My-Internet/blocklist/hagezi-ultimate.txt
-
+        run: sed -i 's/^/0.0.0.0  /' ./Respect-My-Internet/blocklist/hagezi-ultimate.txt
       - name: Push changes
         uses: gh-action/gh-push@v2
         with:
