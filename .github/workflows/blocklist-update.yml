@@ -6,7 +6,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        
       - name: Feed recuperation with curl
         run: curl -o ./Respect-My-Internet/blocklist/hagezi-ultimate.txt https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/ultimate.txt
       - name: Opensnitch patching
